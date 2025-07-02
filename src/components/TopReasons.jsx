@@ -2,31 +2,35 @@ import React, { useRef, useState, useEffect } from 'react';
 import Slider from 'react-slick';
 import './TopReasons.css';
 
-const activities = [
+const reasons = [
   {
-    title: "Hiking",
-    text: "From Canyon Rim to the Colorado National Monument...",
-    img: "https://symphony.cdn.tambourine.com/hotel-maverick/media/01maverick-homepage-featured-activities-hiking-5f33147d72ee4.jpg",
-    highlight: false,
-    link: "/explore/hiking",
-    button: "Explore Hiking",
+    title: "Breathtaking Landscapes",
+    text: "While all the best features of CMU’s campus are a short walk from the hotel, guests can also enjoy close proximity to mountains, rivers, and hiking trails. Plus, the local shops, galleries, and music venues of Downtown Grand Junction are just over a mile away.",
+    img: "https://symphony.cdn.tambourine.com/hotel-maverick/media/mav-toprreasons-01-6346e1b1e3ec6.jpg",
+    link: "https://www.thehotelmaverick.com/explore",
+    button: "Explore Grand Junction"
   },
   {
-    title: "Whitewater Rafting",
-    text: "Achieve the ultimate adrenaline rush with a trip down...",
-    img: "https://symphony.cdn.tambourine.com/hotel-maverick/media/maverick-homepage-featured-activities-whitewater-rafting-5f49132cacddc.jpg",
-    highlight: false,
-    link: "/explore/rafting",
-    button: "Explore Rafting",
+    title: "Rooftop Drinks & Dinner",
+    text: "Whether you’re looking to settle in and study with a freshly-brewed cappuccino at Betty’s Coffee, or you’d like to savor regional fare and craft cocktails with a view at Devil’s Kitchen, Hotel Maverick features elevated dining with flavors inspired by our rustic surroundings.",
+    img: "https://symphony.cdn.tambourine.com/hotel-maverick/media/maverick-homepage-trs-dinning-2-64ee4f139d7ac.jpg",
+    link: "https://www.thehotelmaverick.com/drinks-dining",
+    button: "Read More"
   },
   {
-    title: "Skiing",
-    text: "The region’s mountains create the ultimate destination...",
-    img: "https://symphony.cdn.tambourine.com/hotel-maverick/media/01maverick-homepage-featured-activities-skying-5f3314c39b301.jpg",
-    highlight: false,
-    link: "/explore/skiing",
-    button: "Explore Skiing",
+    title: "Amenities for the Explorer",
+    text: "At Hotel Maverick, guests are able to enjoy full access to CMU’s recreation center and BMX track. With bike rental and use of the fitness room included, visitors can remain active during their stay and take advantage of all that the campus has to offer.",
+    img: "https://symphony.cdn.tambourine.com/hotel-maverick/media/maverick-topreasonamenities03-5f47bd1305c0b-optimized.jpg",
+    link: "https://www.thehotelmaverick.com/our-story",
+    button: "Read More"
   },
+  {
+    title: "Sustainability",
+    text: "At Hotel Maverick – we’re deeply committed to uplifting the planet, people, and places that sustain our operations. We strive to contribute to sustainable development in the short and long term, while simultaneously providing a guest experience that leaves a lasting impression.",
+    img: "https://symphony.cdn.tambourine.com/hotel-maverick/media/maverick-homepage-trs-sustainability-64e4b1a8d36bf.jpg",
+    link: "https://www.thehotelmaverick.com/sustainability",
+    button: "Read More"
+  }
 ];
 
 export default function TopReasons() {
@@ -56,7 +60,7 @@ export default function TopReasons() {
     infinite: true,
     speed: 600,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 6000,
     slidesToShow: 1,
     arrows: false,
     fade: true,
@@ -67,7 +71,7 @@ export default function TopReasons() {
       <div className="top-reasons-wrapper">
         <div className="top-reasons-left">
           <Slider {...settingsText} ref={textSlider}>
-            {activities.map((item, index) => (
+            {reasons.map((item, index) => (
               <div key={index} className="reason-slide">
                 <h2><span className="small-title">Top Reasons to Stay</span> {item.title}</h2>
                 <p>{item.text}</p>
@@ -79,7 +83,7 @@ export default function TopReasons() {
 
         <div className="top-reasons-right">
           <Slider {...settingsImage} ref={imageSlider}>
-            {activities.map((item, index) => (
+            {reasons.map((item, index) => (
               <div key={index} className="image-slide">
                 <figure>
                   <img src={item.img} alt={item.title} />
