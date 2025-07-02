@@ -95,10 +95,10 @@ export default function Footer() {
         {/* Bottom Links */}
         <div className="footer__bottom container">
           <ul>
-            <li><a href="#">Accessibility</a></li>
-            <li><a href="#">Sitemap</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Consent Preferences</a></li>
+            <li><a href="/Accessibility">Accessibility</a></li>
+            <li><a href="/Sitemap">Sitemap</a></li>
+            <li><a href="/Privacy Policy">Privacy Policy</a></li>
+            <li><a href="/Consent Preferences">Consent Preferences</a></li>
           </ul>
           <p>©2025 Hotel Maverick. All Rights Reserved.</p>
         </div>
