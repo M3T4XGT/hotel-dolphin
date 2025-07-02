@@ -1,0 +1,105 @@
+.gallery-preview {
+  padding: 60px 0;
+  background-image: url(../assets/top-reasons-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery-preview .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery-preview__content-left,
+.gallery-preview__content-center,
+.gallery-preview__content-right {
+  flex: 1;
+  min-width: 250px;
+  max-width: 32%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.gallery-preview__content-left .text h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.gallery-preview__content-left .btn2 {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.gallery-preview__img {
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.gallery-preview__img img,
+.gallery-preview__img video {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.gallery-preview__overlay {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #fff;
+  border-radius: 6px;
+}
+
+.gallery-preview__img:hover .gallery-preview__overlay {
+  opacity: 1;
+}
+
+.gallery-preview__overlay img {
+  width: 32px;
+  height: 32px;
+}
+
+.hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+@media (max-width: 768px) {
+  .gallery-preview .container {
+    flex-direction: column;
+  }
+
+  .gallery-preview__content-left,
+  .gallery-preview__content-center,
+  .gallery-preview__content-right {
+    max-width: 100%;
+  }
+
+  .gallery-preview__img img,
+  .gallery-preview__img video {
+    height: 160px;
+  }
+}

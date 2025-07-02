@@ -1,0 +1,72 @@
+.hero-section {
+  background-image: url('https://symphony.cdn.tambourine.com/hotel-maverick/media/maverick-homepageheroimage01-5f47b6ed113b4.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  color: #fff;
+  position: relative;
+  padding: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.nav-links li a {
+  color: white;
+  font-weight: 500;
+}
+
+.book-btn {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  max-width: 600px;
+}
+
+.hero-text h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.explore-btn {
+  background-color: white;
+  color: black;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.logo img {
+  height: 60px;
+  width: auto;
+  transition: all 0.3s ease;
+}
