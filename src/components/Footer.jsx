@@ -10,11 +10,11 @@ export default function Footer() {
           <div className="footer__top--content">
             <nav className="secondary-navigation">
               <ul className="secondary-navigation__list">
-                <li className="secondary-navigation__item"><a href="#">Press</a></li>
-                <li className="secondary-navigation__item"><a href="#">Policies & FAQ</a></li>
-                <li className="secondary-navigation__item"><a href="#">Join Our Team</a></li>
-                <li className="secondary-navigation__item"><a href="#">Contact Us</a></li>
-                <li className="secondary-navigation__item"><a href="#">Sustainability</a></li>
+                <li className="secondary-navigation__item"><a href="/Press">Press</a></li>
+                <li className="secondary-navigation__item"><a href="/policies">Policies & FAQ</a></li>
+                <li className="secondary-navigation__item"><a href="/Join">Join Our Team</a></li>
+                <li className="secondary-navigation__item"><a href="/Contact">Contact Us</a></li>
+                <li className="secondary-navigation__item"><a href="/Sus">Sustainability</a></li>
               </ul>
             </nav>
           </div>
@@ -25,7 +25,7 @@ export default function Footer() {
             <p>
               <strong>Hotel Maverick</strong>, its website, and its ownership and management, all
               based in the United States, collect and use this information as described in our{" "}
-              <a href="#">Privacy Policy</a>.
+              <a href="/Privacy Policy">Privacy Policy</a>.
             </p>
             <div className="form-row">
               <input type="text" placeholder="First Name" />
@@ -34,7 +34,7 @@ export default function Footer() {
             <input type="email" placeholder="Your Email" className="full-width" />
             <label>
               <input type="checkbox" /> I have read and agree to the{" "}
-              <a href="#">Privacy Policy</a>.
+              <a href="/Privacy Policy">Privacy Policy</a>.
             </label>
             <label>
               <input type="checkbox" /> Yes, I would like to receive emails with exclusive specials
@@ -46,28 +46,29 @@ export default function Footer() {
           {/* Contact Info + Social Icons */}
           <div className="footer__top--info">
             <div className="social-icons">
-              <a
-                href="https://www.facebook.com/hotelmaverick/"
-                target="_blank"
-                rel="noopener"
-                aria-label="Facebook Opens in a new window"
-                className="facebook"
-              >
-                <svg
-                  width="15"
-                  height="30"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 15 30"
-                  fill="white"
-                >
-                  <path d="M.862 10.061h3.016V7.129c0-1.292.033-3.286.971-4.52C5.839 1.302 7.197.413 9.531.413c3.805 0 5.408.542 5.408.542l-.754 4.468s-1.258-.364-2.43-.364c-1.174 0-2.225.42-2.225 1.593v3.407h4.811l-.336 4.364H9.53v15.161H3.878V14.425H.862v-4.364z" />
-                </svg>
-              </a>
+             <a
+  href="https://www.facebook.com/hotelmaverick/"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Facebook (opens in a new window)"
+  className="facebook"
+>
+  <svg
+    width="15"
+    height="30"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 15 30"
+    fill="white"
+  >
+    <path d="M.862 10.061h3.016V7.129c0-1.292.033-3.286.971-4.52C5.839 1.302 7.197.413 9.531.413c3.805 0 5.408.542 5.408.542l-.754 4.468s-1.258-.364-2.43-.364c-1.174 0-2.225.42-2.225 1.593v3.407h4.811l-.336 4.364H9.53v15.161H3.878V14.425H.862v-4.364z" />
+  </svg>
+</a>
+
 
               <a
                 href="https://www.instagram.com/hotelmaverick/"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
                 aria-label="Instagram Opens in a new window"
                 className="instagram"
               >
