@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
+    <div className="app-container">
       <Header />
       <IntroContent />
       <TopReasons />
@@ -19,7 +19,7 @@ function App() {
       <LocationMap />
       <GalleryPreview />
       <Footer />
-    </>
+    </div>
   );
 }
 

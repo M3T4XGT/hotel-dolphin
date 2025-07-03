@@ -1,13 +1,48 @@
-body {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+}
+
+/* Prevent horizontal scroll on mobile */
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Ensure images scale down on small screens */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Basic responsive utility */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.app-container {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+/* Responsive text sizing */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+}
+
+/* Allow smoother scaling in mobile browsers */
+body {
+  -webkit-text-size-adjust: 100%;
 }

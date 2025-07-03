@@ -5,6 +5,8 @@
   background-position: left center;
   background-repeat: no-repeat;
   background-color: #f8f4f1;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 .top-reasons-wrapper {
@@ -16,12 +18,14 @@
   margin: 0 auto;
   padding: 0 20px;
   gap: 40px;
+  width: 100%;
 }
 
 .top-reasons-left,
 .top-reasons-right {
   flex: 1;
   min-width: 300px;
+  width: 100%;
 }
 
 .top-reasons-left .small-title {
@@ -68,10 +72,12 @@
 .top-reasons-right figure {
   position: relative;
   margin: 0;
+  width: 100%;
 }
 
 .top-reasons-right img {
   width: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
   border-radius: 8px;
@@ -86,7 +92,7 @@
   font-weight: bold;
 }
 
-/* ✅ Responsive Styles for Mobile */
+/* ✅ Responsive Styles */
 @media (max-width: 768px) {
   .top-reasons-wrapper {
     flex-direction: column;

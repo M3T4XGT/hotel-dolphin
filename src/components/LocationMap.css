@@ -9,62 +9,40 @@
 
 .wrapper {
   margin: 0 auto;
-  max-width: 1200px;
-  width: 100%;
+  max-width: 1500px;
   padding: 0 20px;
 }
 
 .location__content {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 40px;
+  align-items: center;
 }
 
 .location__content .text {
-  flex: 1;
-  min-width: 320px;
-  max-width: 480px;
   color: #fff;
+  max-width: 600px;
+  text-align: left;
 }
 
-.location__image {
-  flex: 1;
-  min-width: 320px;
-  max-width: 600px;
+.small-title {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  margin-bottom: 10px;
+  display: block;
 }
 
 .location__image img {
   width: 100%;
+  max-width: 700px;
   height: auto;
   border-radius: 8px;
   display: block;
 }
 
-.small-title {
-  font-family: "Rubik", sans-serif;
-  display: block;
-  font-size: 16px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #fff;
-  margin-bottom: 5px;
-}
-
-.location__content h2 {
-  font-size: 28px;
-  color: #fff;
-  margin-bottom: 12px;
-}
-
-.location__content p {
-  font-size: 16px;
-  line-height: 1.6;
-  color: #fff;
-}
-
-/* Button Styling */
 .btn {
   display: inline-block;
   padding: 10px 25px;
@@ -82,14 +60,20 @@
   color: #b24836;
 }
 
-/* Responsive Fix: Stack on mobile */
-@media (max-width: 768px) {
+/* Side-by-side on desktop */
+@media (min-width: 769px) {
   .location__content {
-    flex-direction: column;
-    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .location__content .text {
-    margin-right: 0;
+    flex: 1;
+    margin-right: 40px;
+  }
+
+  .location__image {
+    flex: 1;
   }
 }

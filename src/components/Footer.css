@@ -39,6 +39,7 @@
   width: 40%;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 .footer__top--form h3 {
@@ -54,6 +55,7 @@
   margin: 10px 0;
   width: 100%;
   border: none;
+  box-sizing: border-box;
 }
 
 .footer__top--form .form-row {
@@ -116,6 +118,7 @@
   color: white;
   text-decoration: none;
 }
+
 .footer__disclaimer {
   background-color: #003d2f;
   padding: 20px;
@@ -125,4 +128,48 @@
   line-height: 1.6;
   color: #ccc;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ✅ Responsive for mobile */
+@media (max-width: 768px) {
+  .flex-layout {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer__top--form,
+  .footer__top--info,
+  .footer__top--content {
+    width: 100%;
+  }
+
+  .footer__top--form h3 {
+    font-size: 14px;
+  }
+
+  .footer__top--form input[type="text"],
+  .footer__top--form input[type="email"] {
+    font-size: 14px;
+  }
+
+  .footer__top--form .form-row {
+    flex-direction: column;
+  }
+
+  .subscribe-btn {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 12px;
+    gap: 10px;
+  }
+
+  .footer__bottom ul {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
