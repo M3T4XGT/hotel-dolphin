@@ -24,7 +24,7 @@ export default function IntroContent() {
             Grand Junction
           </h1>
           <p>
-            Located on the breathtaking campus of Colorado Mesa University, Hotel Maverick is a scenic destination that fosters the spirit of curiosity. Built against Grand Junction’s sprawling red rock canyons, this unique Colorado locale immerses guests in experiences that feed their wanderlust, offering an enriching stay just minutes away from all things CMU.
+            Located on the breathtaking Colorado state, Hotel Dolphin is a scenic destination that fosters the spirit of curiosity. Built against Grand Junction’s sprawling red rock canyons, this unique Colorado locale immerses guests in experiences that feed their wanderlust, offering an enriching stay just minutes away from all things CMU.
           </p>
           <div className="intro-badge">
             <a href="https://wba.m-rr.com/home" target="_blank" rel="noreferrer">

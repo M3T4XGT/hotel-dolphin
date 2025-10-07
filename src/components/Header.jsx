@@ -32,7 +32,7 @@ export default function Header() {
       </nav>
 
       <div className="hero-text">
-        <h2>The Gateway to Grand Junction</h2>
+        <h2>The Gateway to Colorado</h2>
         <p>Colorado’s scenic destination hotel fostering a spirit of curiosity.</p>
         <button className="explore-btn">Explore Grand Junction</button>
       </div>

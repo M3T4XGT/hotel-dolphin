@@ -23,7 +23,7 @@ export default function Footer() {
           <div className="footer__top--form">
             <h3>SIGN UP TO RECEIVE EXCLUSIVE OFFERS AND UPDATES</h3>
             <p>
-              <strong>Hotel Maverick</strong>, its website, and its ownership and management, all
+              <strong>Hotel Dolphins</strong>, its website, and its ownership and management, all
               based in the United States, collect and use this information as described in our{" "}
               <a href="/Privacy Policy">Privacy Policy</a>.
             </p>
@@ -84,11 +84,11 @@ export default function Footer() {
               </a>
             </div>
             <address>
-              840 Kennedy Ave<br />
+              110 Aldrige Drive<br />
               Grand Junction, CO 81501<br />
-              Direct: <a href="tel:9708224888">970–822–4888</a><br />
-              Toll Free: <a href="tel:8777628374">877–762–8374</a><br />
-              <a href="mailto:hello@thehotelmaverick.com">hello@thehotelmaverick.com</a>
+              Direct: <a href="tel:9990000888">999-222-1256</a><br />
+              Toll Free: <a href="tel:987565452">877–759–12356</a><br />
+              <a href="mailto:hello@thehoteldolphin.com">hello@thehoteldolphin.com</a>
             </address>
           </div>
         </div>
@@ -101,13 +101,13 @@ export default function Footer() {
             <li><a href="/Privacy Policy">Privacy Policy</a></li>
             <li><a href="/Consent Preferences">Consent Preferences</a></li>
           </ul>
-          <p>©2025 Hotel Maverick. All Rights Reserved.</p>
+          <p>©2025 Hotel Dolphin. All Rights Reserved.</p>
         </div>
         <div className="footer__disclaimer">
   <p>
-    This project was created solely for interview purposes by Sai Gowtham Talluri to demonstrate front-end development skills using React. The “Top Reasons to Stay” section was implemented with an auto-sliding feature instead of manual slider buttons to showcase interactive UI behavior.<br /><br />
+    This project was created solely for client-demo purposes by Sai Gowtham Talluri to demonstrate front-end development skills using React. The “Top Reasons to Stay” section was implemented with an auto-sliding feature instead of manual slider buttons to showcase interactive UI behavior.<br /><br />
     This is <strong>not a commercial clone</strong> of the Maverick Hotels website. It was built within limited time for educational demonstration only. I fully respect the original brand and assets, and I am strictly abiding by all usage guidelines.<br /><br />
-    This site will <strong>not be published, uploaded to GitHub, or distributed in any form</strong>, and will be permanently deleted after the interview process.
+    This site will <strong>not be published, or distributed in any form</strong>, and will be permanently unused.
   </p>
 </div>
 

@@ -6,9 +6,9 @@ export default function GalleryPreview() {
     <section className="gallery-preview">
       <div className="gallery-preview__container">
         <div className="gallery-preview__intro">
-          <h2>take a look</h2>
+          {/* <h2>take a look</h2> */}
           <a
-            href="https://www.thehotelmaverick.com/photos"
+            href="/"
             className="btn2"
             aria-label="view gallery of photos"
           >

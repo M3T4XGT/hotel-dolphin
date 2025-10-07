@@ -10,10 +10,10 @@ export default function Location() {
             <h2>
               <span className="small-title">location</span>
               Located on <br />
-              the Scenic CMU Campus
+              the Scenic site
             </h2>
             <p>
-              Hotel Maverick was built on CMU’s campus in the heart of Grand Junction.
+              Hotel Dolphin was built on Colorado in the heart of Grand Junction.
               Western charm meets the serenity of nature with desert canyons, pristine valleys,
               and tranquil rivers nearby.
             </p>
@@ -22,7 +22,7 @@ export default function Location() {
               className="btn"
               aria-label="Explore Grand Junction"
             >
-              Explore Grand Junction
+              Explore Colorado
             </a>
           </div>
         </div>

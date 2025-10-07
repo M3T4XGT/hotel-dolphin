@@ -25,13 +25,13 @@ export default function OurStory() {
         <div className="quad-simple-bg__content animate-fade right fade-in">
           <h2>
             <span className="small-title">our story</span>
-            Built on Maverick Pride
+            Built on Colorado's Pride
           </h2>
           <p>
-            As a proud part of the Colorado Mesa University community in every way,
-            Hotel Maverick views itself as an extension of the classroom. Discover
-            the true hands-on hospitality experiences for CMU students, and an emphasis
-            on genuine connections with the university faculty members.
+            As a proud part of the Colorado community in every way,
+            Hotel Dolphin views itself as an extension of the classroom. Discover
+            the true hands-on hospitality experiences students, and an emphasis
+            on genuine connections with the people of Colorado.
           </p>
           <a
             href="https://www.thehotelmaverick.com/our-story"

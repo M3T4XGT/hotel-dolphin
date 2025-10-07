@@ -70,4 +70,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 DISCLAIMER
-This project is a non-commercial demo created solely for interview purposes by Sai Gowtham Talluri. All branding and assets belong to their respective owners. This is not intended for public use, monetization, or redistribution.
+This project is a non-commercial demo created solely for client-presentation purposes by Sai Gowtham Talluri. All branding and assets belong to their respective owners. This is not intended for public use, monetization, or redistribution.

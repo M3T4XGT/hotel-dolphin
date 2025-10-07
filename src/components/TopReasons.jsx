@@ -8,7 +8,7 @@ const reasons = [
     text: "While all the best features of CMU’s campus are a short walk from the hotel, guests can also enjoy close proximity to mountains, rivers, and hiking trails. Plus, the local shops, galleries, and music venues of Downtown Grand Junction are just over a mile away.",
     img: "https://symphony.cdn.tambourine.com/hotel-maverick/media/mav-toprreasons-01-6346e1b1e3ec6.jpg",
     link: "https://www.thehotelmaverick.com/explore",
-    button: "Explore Grand Junction"
+    button: "Explore Colorado"
   },
   {
     title: "Rooftop Drinks & Dinner",
